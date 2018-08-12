@@ -1,0 +1,12 @@
+{
+    "python.formatting.provider": "black",
+    "python.linting.flake8Enabled": true,
+    "python.linting.mypyEnabled": true,
+    "python.unitTest.unittestEnabled": true,
+    "python.unitTest.unittestArgs": [
+        "discover", "test"
+    ],
+    "python.venvPath": ".venv",
+    "python.pythonPath": "${workspaceFolder}/.venv/bin/python",
+    "python.linting.flake8Args": ["--max-line-length", "88"]
+}
